@@ -1,0 +1,268 @@
+<configuration>
+
+    <property>
+      <name>dfs.blocksize</name>
+      <value>268435456</value>
+    </property>
+
+    <property>
+      <name>dfs.client.block.write.locateFollowingBlock.retries</name>
+      <value>10</value>
+    </property>
+
+    <property>
+      <name>dfs.client.block.write.retries</name>
+      <value>10</value>
+    </property>
+
+    <property>
+      <name>dfs.client.domain.socket.data.traffic</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.client.failover.proxy.provider.lt-router.sy</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+
+
+    <property>
+      <name>dfs.client.read.shortcircuit</name>
+      <value>true</value>
+    </property>
+
+    <property>
+      <name>dfs.client.read.shortcircuit.skip.checksum</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.client.use.datanode.hostname</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.client.use.legacy.blockreader</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.datanode.hdfs-blocks-metadata.enabled</name>
+      <value>true</value>
+    </property>
+
+    <property>
+      <name>dfs.domain.socket.path</name>
+      <value>/home/var/lib/hdfs/hdfs-sockets/dn</value>
+    </property>
+
+    <property>
+      <name>dfs.ha.automatic-failover.enabled.lt-router.sy</name>
+      <value>true</value>
+    </property>
+
+    <property>
+      <name>dfs.ha.namenodes.lt-router.sy</name>
+      <value>router1,router2,router3,router4,router5,router6,router7,router8,router9,router10,router11,router12,router13,router14,router15,router16,router17,router18,router19,router20,router21,router22,router23,router24,router25,router26,router27,router28,router29,router30,router31,router32,router33</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.acls.enabled</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router1</name>
+      <value>10.48.188.183:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router10</name>
+      <value>10.46.32.153:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router11</name>
+      <value>10.46.32.154:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router12</name>
+      <value>10.46.32.155:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router13</name>
+      <value>10.46.32.168:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router14</name>
+      <value>10.46.32.169:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router15</name>
+      <value>10.46.186.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router16</name>
+      <value>10.46.187.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router17</name>
+      <value>10.46.187.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router18</name>
+      <value>10.46.188.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router19</name>
+      <value>10.46.188.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router2</name>
+      <value>10.48.191.169:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router20</name>
+      <value>10.46.189.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router21</name>
+      <value>10.46.189.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router22</name>
+      <value>10.46.190.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router23</name>
+      <value>10.46.195.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router24</name>
+      <value>10.46.196.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router25</name>
+      <value>10.46.196.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router26</name>
+      <value>10.46.197.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router27</name>
+      <value>10.46.198.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router28</name>
+      <value>10.46.198.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router29</name>
+      <value>10.46.191.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router3</name>
+      <value>10.48.191.170:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router30</name>
+      <value>10.46.192.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router31</name>
+      <value>10.46.192.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router32</name>
+      <value>10.46.193.21:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router33</name>
+      <value>10.46.193.33:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router4</name>
+      <value>10.48.49.149:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router5</name>
+      <value>10.46.139.168:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router6</name>
+      <value>10.46.139.169:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router7</name>
+      <value>10.46.139.170:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router8</name>
+      <value>10.48.99.176:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.namenode.rpc-address.lt-router.sy.router9</name>
+      <value>10.48.72.173:8888</value>
+    </property>
+
+    <property>
+      <name>dfs.nameservices</name>
+      <value>lt-router.sy</value>
+    </property>
+
+    <property>
+      <name>dfs.replication</name>
+      <value>3</value>
+    </property>
+
+    <property>
+      <name>fs.permissions.umask-mode</name>
+      <value>022</value>
+    </property>
+
+    <property>
+      <name>ipc.client.rpc-timeout.ms</name>
+      <value>600000</value>
+    </property>
+
+    <property>
+      <name>raid.distraid.intel.style</name>
+      <value>true</value>
+    </property>
+
+    <property>
+      <name>viewfs.skip.close.fs</name>
+      <value>true</value>
+    </property>
+</configuration>
